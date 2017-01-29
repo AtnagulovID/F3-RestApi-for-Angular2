@@ -2,7 +2,7 @@
 
 FatFreeFrameWork
  - JWT autorization
- - Work with Angular 2 (RespApi)
+ - Work with Angular 2 (RestApi)
  - Model
  - Controller
 
