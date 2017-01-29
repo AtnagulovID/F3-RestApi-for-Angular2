@@ -1,6 +1,6 @@
-# F3-RestApi-for-Angular2 (https://github.com/bcosca/fatfree )
+# F3-RestApi-for-Angular2 
 
-FatFreeFrameWork
+FatFreeFrameWork (https://github.com/bcosca/fatfree )
  - JWT autorization
  - Work with Angular 2 (RestApi)
  - Model
