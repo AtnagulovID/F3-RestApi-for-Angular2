@@ -3,6 +3,7 @@
 FatFreeFrameWork (https://github.com/bcosca/fatfree )
  - JWT autorization
  - Work with Angular 2 (RestApi)
+ - Translate
  - Model
  - Controller
 
