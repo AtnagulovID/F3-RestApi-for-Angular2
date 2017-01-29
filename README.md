@@ -1,4 +1,4 @@
-# F3-RestApi-for-Angular2
+# F3-RestApi-for-Angular2 (https://github.com/bcosca/fatfree )
 
 FatFreeFrameWork
  - JWT autorization
@@ -9,5 +9,3 @@ FatFreeFrameWork
 http://atnagulovid.myjino.ru  - Live Demo 
 
 https://github.com/AtnagulovID/Angular-2-CLI-Learn-project - FrontEnd
- 
-https://github.com/bcosca/fatfree 
