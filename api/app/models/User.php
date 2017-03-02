@@ -32,6 +32,12 @@ class User extends Model{
 				'message' => 'username_is_required'
 				);
 			break;
+			case (!filter_var($this->username, FILTER_VALIDATE_EMAIL)) : 
+			$this->error = array(
+				'code' => '400',
+				'message' => 'email_incorrect'
+				);
+			break;
             case ($this->password==null) : 
 			$this->error = array(
 				'code' => '400',

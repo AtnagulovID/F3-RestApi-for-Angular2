@@ -8,6 +8,10 @@ return array(
     'Successfully_Deleted' => 'успешно удалено',
     'not_found' => 'не надйено',
     'affair_not_found' => 'дело не найдено',
-    'password_length_6' => 'пароль бэлэкэй 6 символдан'
+    'password_length_6' => 'пароль бэлэкэй 6 символдан',
+    'email_incorrect' => 'email дорос тогел',
+    'text_is_required' => 'текст кэрэк',
+    'date_is_required' => 'дата кэрэк'
+
 );
 ?>

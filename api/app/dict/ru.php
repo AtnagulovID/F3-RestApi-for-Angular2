@@ -8,6 +8,11 @@ return array(
     'Successfully_Deleted' => 'успешно удалено',
     'not_found' => 'не надйено',
     'affair_not_found' => 'дело не найдено',
-    'password_length_6' => 'пароль меньще 6 символов'
+    'password_length_6' => 'пароль меньще 6 символов',
+    'email_incorrect' => 'email не корректный',
+    'text_is_required' => 'текст обязательное поле',
+    'date_is_required' => 'дата оязательно для заполнения'
+
+    
 );
 ?>

@@ -1,8 +1,8 @@
 <?php 
-class Affairs extends UserBaseModel{
+class Interview extends UserBaseModel{
 
-	function __construct(array $user = null){
-		parent::__construct("affairs");
+	function __construct(){
+		parent::__construct("interview");
 	}
 	
 
@@ -15,17 +15,10 @@ class Affairs extends UserBaseModel{
 			array_push($arResponse, $arData);
 		}
 		return $arResponse;
-
 	}
 
 	function verify(){
 		switch (true) {
-			case ($this->date==null) : 
-			$this->error = array(
-				'code' => '400',
-				'message' => 'date_is_required'
-				);
-			break;
             case ($this->name==null) : 
 			$this->error = array(
 				'code' => '400',

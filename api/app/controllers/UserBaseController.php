@@ -16,6 +16,7 @@ class UserBaseController extends Controller{
 	}
 
 	function create($f3){
+
 	    $this->parse_body();
 	    eval('$'.'model = new '.$this->ModelName.'();');
 
@@ -28,6 +29,7 @@ class UserBaseController extends Controller{
 		{
 			$this->httpResponse("200",$result);
 		}
+
     }
 
 
